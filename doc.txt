@@ -1,3 +1,5 @@
 font-family: 'Inter', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Lobster', cursive;
+
+#707070  #21212
