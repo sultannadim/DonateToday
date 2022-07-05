@@ -31,8 +31,8 @@ p {
   display: flex;
 }
 .one-third-width {
-  width: 31%;
-  padding: 0 1.5%;
+  width: 32%;
+  padding: 0 0.66%;
   box-sizing: border-box;
 }
 .text-center {
@@ -112,7 +112,7 @@ p {
   outline: none;
   border-bottom: 1px solid #dadada;
 }
-::placeholder {
+.donate_input input::placeholder {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -136,6 +136,7 @@ p {
 .donate-plan-box {
   margin-top: 50px;
   display: flex;
+  justify-content: space-evenly;
 }
 .card-content {
   box-sizing: border-box;
@@ -163,3 +164,67 @@ p {
   margin: 0;
 }
 /* donate plane part end */
+
+/* updates part start */
+.updates-content {
+  min-height: 90vh;
+}
+.subscribe-box {
+  margin-top: 40px;
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff4d6;
+  border-radius: 5px;
+}
+.subscribe-form {
+  margin: 0 auto;
+  width: 50%;
+  padding: 0;
+  position: relative;
+}
+.subscribe-form input {
+  border: none;
+  outline: none;
+  padding: 15px 25px;
+  height: 54px;
+  box-sizing: border-box;
+  width: 300px;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.subscribe-form input::placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #aa9f9f;
+}
+.btn-subscribe {
+  border: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  position: absolute;
+  cursor: pointer;
+}
+/* updates part end */
+
+/* footer part start */
+.footer {
+  padding: 40px 0;
+  background-color: #121212;
+}
+.footer h1 {
+  margin-bottom: 25px;
+  font-family: "Lobster", cursive;
+  font-size: 36px;
+  font-weight: 400;
+  color: #ff5959;
+}
+.footer p {
+  color: #d9dbe1;
+}
+/* footer part end */
