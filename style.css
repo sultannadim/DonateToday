@@ -19,6 +19,10 @@ h4 {
 h2 {
   font-size: 45px;
 }
+h2,
+p {
+  margin-bottom: 20px;
+}
 .container {
   width: 85%;
   margin: 0 auto;
@@ -42,7 +46,7 @@ h2 {
   background-position: center;
   background-size: cover;
 }
-.hero-text {
+.common-box {
   margin: 0 auto;
   width: 75%;
   display: flex;
@@ -58,7 +62,6 @@ h2 {
 }
 .hero-text p {
   color: #ffffff;
-  margin-bottom: 20px;
 }
 .btn {
   font-family: "Inter", sans-serif;
@@ -71,3 +74,54 @@ h2 {
   border-radius: 5px;
 }
 /* hero part end */
+
+/* donate part start */
+
+.amount {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.amount li {
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  list-style-type: none;
+  width: 136px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+}
+.amount li.active {
+  color: #ff5959;
+  border: 1px solid #ff5959;
+  background-color: #ffeeee;
+  border-radius: 5px;
+}
+.donate-form {
+  margin-top: 50px;
+  width: 100%;
+}
+.donate_input {
+}
+.donate_input input {
+  padding: 15px 0px;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #dadada;
+}
+::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #b3b3b3;
+  text-align: center;
+}
+.btn-submit {
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+}
+/* donate part end */
