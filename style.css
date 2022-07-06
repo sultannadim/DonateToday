@@ -214,6 +214,7 @@ p {
 /* updates part start */
 .updates-content {
   min-height: 90vh;
+  width: 100%;
 }
 .subscribe-box {
   margin-top: 40px;
@@ -237,7 +238,7 @@ p {
   padding: 15px 25px;
   height: 54px;
   box-sizing: border-box;
-  width: 300px;
+  width: 75%;
   background-color: #d9d9d9;
   border-radius: 5px;
   border-top-right-radius: 0;
