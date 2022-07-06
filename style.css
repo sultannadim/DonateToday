@@ -228,8 +228,8 @@ p {
 .subscribe-form {
   margin: 0 auto;
   width: 50%;
-  padding: 0;
-  position: relative;
+  display: flex;
+  justify-content: center;
 }
 .subscribe-form input {
   border: none;
@@ -253,7 +253,6 @@ p {
   border: none;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-  position: absolute;
   cursor: pointer;
 }
 /* updates part end */
